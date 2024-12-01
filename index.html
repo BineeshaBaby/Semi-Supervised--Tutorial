@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tutorial on Semi-Supervised Learning">
+    <title>Semi-Supervised Learning Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Semi-Supervised Learning Tutorial</h1>
+        <p>Master the basics of Self-Training and Label Propagation</p>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#code-and-demos">Code and Demonstrations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Semi-supervised learning is a powerful machine learning paradigm that combines the strengths of supervised and unsupervised learning techniques. It is particularly useful when labeled data is scarce but unlabeled data is abundant.</p>
+            <p>In this tutorial, we will explore two popular methods:</p>
+            <ul>
+                <li><strong>Self-Training:</strong> A technique that iteratively labels unlabeled data based on the predictions of a trained model.</li>
+                <li><strong>Label Propagation:</strong> A graph-based algorithm that spreads labels to unlabeled data points based on similarity.</li>
+            </ul>
+        </section>
+        <section id="results">
+            <h2>Results</h2>
+            <h3>Self-Training</h3>
+            <p>Below is a visualization of feature importance after applying self-training:</p>
+            <img src="assets/self_training_plot.png" alt="Feature Importance Plot for Self-Training">
+        
+            <h3>Label Propagation</h3>
+            <p>Here’s the result of label propagation on a synthetic dataset:</p>
+            <img src="assets/label_propagation_plot.png" alt="Label Propagation Results">
+        </section>
+        <section id="code-and-demos">
+            <h2>Code and Demonstrations</h2>
+            <p><a href="code/self_training.ipynb">Self-Training Notebook</a></p>
+            <p><a href="code/label_propagation.ipynb">Label Propagation Notebook</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>Useful links:</p>
+        <ul>
+            <li><a href="https://github.com/your-username/semi-supervised-learning" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://scikit-learn.org/" target="_blank">Scikit-learn Documentation</a></li>
+            <li><a href="#header">Back to Top</a></li>
+        </ul>
+    </footer>    
+</body>
+</html>
+
